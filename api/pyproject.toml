@@ -7,7 +7,17 @@ authors = [
     { name = "ShayanTabani", email = "shayantabaniawan@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-ollama",
+    "langchain-qdrant",
+    "langchain-text-splitters",
+    "pydantic",
+    "pydantic-settings",
+    "pypdf",
+    "qdrant-client",
+]
 
 [project.scripts]
 api = "api:main"
